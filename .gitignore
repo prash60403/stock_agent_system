@@ -1,0 +1,54 @@
+# 🔐 Environment variables (VERY IMPORTANT)
+.env
+
+# 🐍 Virtual environments
+.venv/
+venv/
+env/
+
+# 🧠 Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 📊 Large / data files (avoid pushing heavy files)
+*.csv
+*.xlsx
+*.json
+*.zip
+*.tar
+*.gz
+
+# 📁 Logs
+*.log
+
+# 🧪 Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ⚙️ IDE / Editor files
+.vscode/
+.idea/
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🔑 Secret keys or config files
+*.pem
+*.key
+
+# 📡 AI / Model files (if you add later)
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# 🧾 Temporary files
+*.tmp
+*.bak
